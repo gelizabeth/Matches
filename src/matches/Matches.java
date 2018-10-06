@@ -11,7 +11,7 @@ import java.lang.Math;
  * So width will be square root of number of squares 
  * and length - number of squares / width. And for the rectangle it's needed width*(length+1)+ length*(width+1) matches.
  * Also it's needed to count squares that are not in rectangle 
- * by counting number of squares - area of a reactangle (n - width*length). And then just count matches left = 2*leftSquares+1.
+ * by counting number of squares - area of a reactangle (n - width*length). And then just add matches left = 2*leftSquares+1.
  */
 public class Matches {
   
