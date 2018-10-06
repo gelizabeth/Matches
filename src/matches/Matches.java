@@ -6,8 +6,9 @@ import java.lang.Math;
  *
  * @author Liza
  * The countMatches method gets input number as an argument and
- * calculates the number of matches needed. The squares must form a rectangle that 
- * is the most closest in shape to a square. So width will be square root of number of squares 
+ * calculates the number of matches needed. 
+ * The squares must form a rectangle that is the most closest in shape to a square. 
+ * So width will be square root of number of squares 
  * and length - number of squares / width. And for the rectangle it's needed width*(length+1)+ length*(width+1) matches.
  * Also it's needed to count squares that are not in rectangle 
  * by counting number of squares - area of a reactangle (width*length). And then just count matches left = 2*leftSquares+1.
